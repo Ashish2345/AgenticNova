@@ -1,7 +1,7 @@
 import json
 
 import joblib
-from core.config import INPUT_EXAMPLE
+from nova.app.core.config_Dev import INPUT_EXAMPLE
 from fastapi import APIRouter, HTTPException
 from models.prediction import (
     HealthResponse,

@@ -1,5 +1,5 @@
 from api.routes.api import router as api_router
-from core.config import API_PREFIX, DEBUG, MEMOIZATION_FLAG, PROJECT_NAME, VERSION
+from nova.app.core.config_Dev import API_PREFIX, DEBUG, MEMOIZATION_FLAG, PROJECT_NAME, VERSION
 from core.events import create_start_app_handler
 from fastapi import FastAPI
 
